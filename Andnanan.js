@@ -99,7 +99,7 @@ var charJson =
         "traits": "The first thing I do in a new place is note the locations of everything valuable - where such things could be hidden or who knows about where the valuables are",
         "ideals": "Exposure: The evils of the world must be exposed.",
         "bonds": "My inheritence was stolen from me, and I aim to steal it back",
-        "flaws": "Information about my family precedes everything"
+        "flaws": "Information about my family precedes everything. Feels uncomfortable in foreign environment."
     },
     "features": [
         "Age: Can live to be 750 years old",
