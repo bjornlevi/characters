@@ -40,7 +40,6 @@ var charJson =
     "skill_proficiences": [
     	"acrobatics",
     	"athletics",
-    	"athletics",
         "deception",
         "investigation",
         "perception",
@@ -48,7 +47,7 @@ var charJson =
         "stealth"
     ],
     "attacks": {
-        "shortbow": {
+        "Shortbow": {
             "ability": "dex",
             "extraAttackMod": 0,
             "extraDmgMod": 0,
@@ -56,13 +55,13 @@ var charJson =
             "proficient": true,
             "type": "piercing"
         },
-        "scimitar": {
+        "Scimitar": {
             "ability": "dex",
             "die": "1d6",
             "proficient": true,
             "type": "slashing"
         },
-        "blowgun": {
+        "Blowgun": {
             "ability": "dex",
             "die": "1",
             "proficient": true,
@@ -78,27 +77,29 @@ var charJson =
             "platinum": 0
         },
         "other": [
-            "backpack",
-            "thieves tools",
-            "burglars pack",
-            "dungeoneers pack",
+            "Backpack",
+            "Thieves tools",
+            "Poisoners Kit",
+            "Disguise Kit",
+            "Burglars pack",
+            "Dungeoneers pack",
             "40 blowgun darts",
             "20 arrows",
-            "leather armor",
+            "Leather armor",
             "2 daggers",
-            "scimitar",
-            "blowgun",
-            "short bow",
-            "antitoxin",
+            "Scimitar",
+            "Blowgun",
+            "Short bow",
+            "Antitoxin",
             "lock",
-            "hourglass"
+            "Hourglass"
         ]
     },
     "personality": {
-        "traits": "The first thing I do in a new placeis note the locations of everything valuable - where such things could be hidden or who knows about where the valuables are",
+        "traits": "The first thing I do in a new place is note the locations of everything valuable - where such things could be hidden or who knows about where the valuables are",
         "ideals": "Exposure: The evils of the world must be exposed.",
-        "bonds": "Something important was taken from me, and I aim to steal it back",
-        "flaws": "When I see something valuable, I cant think about anything but how to steal it."
+        "bonds": "My inheritence was stolen from me, and I aim to steal it back",
+        "flaws": "Information about my family precedes everything"
     },
     "features": [
         "Age: Can live to be 750 years old",
@@ -111,7 +112,9 @@ var charJson =
         "Extra language: You know one additional language",
         "Armor: Light",
         "Weapons: Simple, hand xbows, rapiers, scimitar, blowgun",
-        "Expertise: Double proficiency with four skills (stealth, investigation, athletics, deception",
+        "Expertise: Double proficiency with four skills (stealth, investigation, athletics, deception)",
+        "Trained: Poisoners kit",
+        "Trained: Disguise kit",
         "Sneak attack: 5d6",
         "Thieves cant: Secret signs and symbols",
         "Cunning action: Bonus action (dash, disengage, hide, Fast hands: sleight of hand, thieves tools, use an object)",
