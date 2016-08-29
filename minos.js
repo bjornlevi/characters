@@ -108,5 +108,16 @@ var charJson =
     ],
     "contacts": [
         ""
-    ]
+    ],
+    "spellcasting": {
+        "spellcastingAbility": "cha",
+        "spellSlots": {
+            "spells0": 2,
+            "spells1": 2
+        },
+        "spells": {
+            "spells0": ["MINOR ILLUSION", "PRESTIDIGITATION"],
+            "spells1": ["HEROISM", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD"],
+        }
+    },
 };
