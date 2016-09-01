@@ -92,7 +92,8 @@ var charJson =
         "Fey Ancestry (adv vs charm, no sleep magic)",
         "2 skills (stealth, performance)",
         "Bard Spellcasting",
-        "Bardic Inspiration (d6)"
+        "Bardic Inspiration (d6)",
+        "Magic Initiate (Eldrich Blast, Chill Touch, Hex)"
     ],
     "proficiencies": [
         "Flute",
@@ -117,8 +118,8 @@ var charJson =
             "spells1": 2
         },
         "spells": {
-            "spells0": ["MINOR ILLUSION", "PRESTIDIGITATION"],
-            "spells1": ["HEROISM", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD"],
+            "spells0": ["MINOR ILLUSION", "PRESTIDIGITATION", "ELDRICH BLAST", "CHILL TOUCH"],
+            "spells1": ["HEROISM", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD", "HEX"],
         }
     },
 };
