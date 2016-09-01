@@ -118,7 +118,7 @@ var charJson =
             "spells1": 2
         },
         "spells": {
-            "spells0": ["MINOR ILLUSION", "PRESTIDIGITATION", "ELDRICH BLAST", "CHILL TOUCH"],
+            "spells0": ["MINOR ILLUSION", "VICIOUS MOCKERY", "ELDRICH BLAST", "CHILL TOUCH"],
             "spells1": ["HEROISM", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD", "HEX"],
         }
     },
