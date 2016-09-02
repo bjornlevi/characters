@@ -78,7 +78,8 @@ var charJson =
             "traveler's clothes",
             "crude map of the planes",
             "10 gp bytopia trade coin",
-            "Kom flute (Bytopian flute)"
+            "Kom flute (Bytopian flute)",
+            "A harmless stage dagger with retracting blade and blood-compartment",
         ]
     },
     "personality": {
