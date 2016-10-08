@@ -3,13 +3,13 @@ var charJson =
     "name": "Minos Minakos",
     "classes": {
         "Bard": {
-            "level": 1,
+            "level": 2,
             "hitdice": "D8"
         }
     },
     "hasinspirationpoint": false,
     "exhaustionlevel": 0,
-    "hitpoints": 10,
+    "hitpoints": 17,
     "ac": "14",
     "speed": 30,
     "mainattributes": {
@@ -94,7 +94,9 @@ var charJson =
         "2 skills (stealth, performance)",
         "Bard Spellcasting",
         "Bardic Inspiration (d6)",
-        "Magic Initiate (Eldrich Blast, Chill Touch, Hex)"
+        "Magic Initiate (Eldrich Blast, Chill Touch, Hex)",
+        "Jack of all trades",
+        "Song of rest (d6)"
     ],
     "proficiencies": [
         "Flute",
@@ -116,11 +118,11 @@ var charJson =
         "spellcastingAbility": "cha",
         "spellSlots": {
             "spells0": 2,
-            "spells1": 2
+            "spells1": 3
         },
         "spells": {
             "spells0": ["MINOR ILLUSION", "PRESDIGITATION", "ELDRICH BLAST", "CHILL TOUCH"],
-            "spells1": ["HEROISM", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD", "HEX"],
+            "spells1": ["DETECT MAGIC", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD", "HEX", "DISGUISE SELF"],
         }
     },
 };
