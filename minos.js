@@ -3,13 +3,13 @@ var charJson =
     "name": "Minos Minakos",
     "classes": {
         "Bard": {
-            "level": 2,
+            "level": 3,
             "hitdice": "D8"
         }
     },
     "hasinspirationpoint": false,
     "exhaustionlevel": 0,
-    "hitpoints": 17,
+    "hitpoints": 25,
     "ac": "14",
     "speed": 30,
     "mainattributes": {
@@ -44,7 +44,10 @@ var charJson =
         "perception",
         "performance",
         "persuasion",
-        "stealth"
+        "stealth",
+        "acrobatics",
+        "sleight of hand",
+        "deception"
     ],
     "attacks": {
         "Rapier": {
@@ -60,7 +63,19 @@ var charJson =
             "die": "1d6",
             "proficient": true,
             "type": "s"
-        }
+        },
+        "Eldrich blast": {
+            "ability": "cha",
+            "die": "1d10",
+            "proficient": true,
+            "type": "f"
+        },
+        "Chill touch": {
+            "ability": "cha",
+            "die": "1d8",
+            "proficient": true,
+            "type": "n"
+        }        
     },
     "equipment": {
         "coins": {
@@ -96,7 +111,10 @@ var charJson =
         "Bardic Inspiration (d6)",
         "Magic Initiate (Eldrich Blast, Chill Touch, Hex)",
         "Jack of all trades",
-        "Song of rest (d6)"
+        "Song of rest (d6)",
+        "Bardic college (Lore - arcana, acrobatics)",
+        "Expertise (Stealth, Deception)",
+        "Cutting words (reaction)"
     ],
     "proficiencies": [
         "Flute",
@@ -118,11 +136,13 @@ var charJson =
         "spellcastingAbility": "cha",
         "spellSlots": {
             "spells0": 2,
-            "spells1": 3
+            "spells1": 4,
+            "spells2": 2
         },
         "spells": {
             "spells0": ["MINOR ILLUSION", "PRESDIGITATION", "ELDRICH BLAST", "CHILL TOUCH"],
             "spells1": ["DETECT MAGIC", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD", "HEX", "DISGUISE SELF"],
+            "spells2": ["Invisibility"]
         }
     },
 };
