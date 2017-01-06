@@ -3,13 +3,13 @@ var charJson =
     "name": "Minos Minakos",
     "classes": {
         "Bard": {
-            "level": 3,
+            "level": 4,
             "hitdice": "D8"
         }
     },
     "hasinspirationpoint": false,
     "exhaustionlevel": 0,
-    "hitpoints": 25,
+    "hitpoints": 34,
     "ac": "14",
     "speed": 30,
     "mainattributes": {
@@ -136,13 +136,13 @@ var charJson =
         "spellcastingAbility": "cha",
         "spellSlots": {
             "spells0": 2,
-            "spells1": 4,
-            "spells2": 2
+            "spells1": 5,
+            "spells2": 3
         },
         "spells": {
-            "spells0": ["MINOR ILLUSION", "PRESDIGITATION", "ELDRICH BLAST", "CHILL TOUCH"],
-            "spells1": ["DETECT MAGIC", "SLEEP", "DISSONANT WHISPERS", "HEALING WORD", "HEX", "DISGUISE SELF"],
-            "spells2": ["Invisibility"]
+            "spells0": ["MINOR ILLUSION", "PRESDIGITATION", "ELDRICH BLAST", "CHILL TOUCH", "Viscious Mockery"],
+            "spells1": ["DETECT MAGIC", "Fairy Fire", "DISSONANT WHISPERS", "HEALING WORD", "HEX", "DISGUISE SELF"],
+            "spells2": ["Invisibility", "Shatter"]
         }
     },
 };
