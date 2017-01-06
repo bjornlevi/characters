@@ -33,7 +33,7 @@ var charJson =
         "con": 14,
         "int": 10,
         "wis": 14,
-        "cha": 16
+        "cha": 18
     },
     "savingthrow_proficiencies": [
         "dex", "cha"
