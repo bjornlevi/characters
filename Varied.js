@@ -1,10 +1,14 @@
 var charJson =
 {
-    "name": "Minos Minakos",
+    "name": "Varied",
     "classes": {
         "Bard": {
             "level": 4,
             "hitdice": "D8"
+        },
+        "Sorcerer": {
+            "level": 1,
+            "hitdice": "D6"
         }
     },
     "hasinspirationpoint": false,
@@ -66,13 +70,13 @@ var charJson =
         },
         "Eldrich blast": {
             "ability": "cha",
-            "die": "1d10",
+            "die": "1d10x2",
             "proficient": true,
             "type": "f"
         },
         "Chill touch": {
             "ability": "cha",
-            "die": "1d8",
+            "die": "2d8",
             "proficient": true,
             "type": "n"
         }        
@@ -114,7 +118,10 @@ var charJson =
         "Song of rest (d6)",
         "Bardic college (Lore - arcana, acrobatics)",
         "Expertise (Stealth, Deception)",
-        "Cutting words (reaction)"
+        "Cutting words (reaction)",
+        "Tides of Chaos",
+        "Sourcerous origin: Wild mage",
+        
     ],
     "proficiencies": [
         "Flute",
@@ -140,9 +147,10 @@ var charJson =
             "spells2": 3
         },
         "spells": {
-            "spells0": ["MINOR ILLUSION", "PRESDIGITATION", "ELDRICH BLAST", "CHILL TOUCH", "Viscious Mockery"],
-            "spells1": ["DETECT MAGIC", "Fairy Fire", "DISSONANT WHISPERS", "HEALING WORD", "HEX", "DISGUISE SELF"],
-            "spells2": ["Invisibility", "Shatter"]
+            "spells0": ["MINOR ILLUSION", "PRESDIGITATION", "ELDRICH BLAST", "CHILL TOUCH", "Viscious Mockery", "Mage hand", "Mending", "Light", "Friends"],
+            "spells1": ["DETECT MAGIC", "Shield", "DISSONANT WHISPERS", "HEALING WORD", "HEX", "DISGUISE SELF"],
+            "spells2": ["Invisibility", "Shatter"],
+            "spells3": ["Major image", "Fireball"]
         }
     },
 };
