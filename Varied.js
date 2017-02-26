@@ -149,8 +149,8 @@ var charJson =
         "spells": {
             "spells0": ["MINOR ILLUSION", "PRESDIGITATION", "ELDRICH BLAST", "CHILL TOUCH", "Viscious Mockery", "Mage hand", "Mending", "Light", "Friends"],
             "spells1": ["DETECT MAGIC", "Shield", "DISSONANT WHISPERS", "HEALING WORD", "HEX", "DISGUISE SELF"],
-            "spells2": ["Invisibility", "Shatter"],
-            "spells3": ["Major image", "Fireball"]
+            "spells2": ["Invisibility", "Shatter", "Enlarge/Reduce"],
+            "spells3": ["Fireball"]
         }
     },
 };
