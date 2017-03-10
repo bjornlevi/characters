@@ -13,7 +13,7 @@ var charJson =
     },
     "hasinspirationpoint": false,
     "exhaustionlevel": 0,
-    "hitpoints": 34,
+    "hitpoints": 41,
     "ac": "14",
     "speed": 30,
     "mainattributes": {
