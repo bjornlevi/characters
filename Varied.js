@@ -1,6 +1,7 @@
 var charJson =
 {
     "name": "Varied",
+    "portrait": "http://orig07.deviantart.net/9948/f/2013/122/7/b/vimala_teaser_art_by_brilcrist-d63trah.jpg",
     "classes": {
         "Bard": {
             "level": 4,
